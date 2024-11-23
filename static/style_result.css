@@ -1,0 +1,52 @@
+/* style_result.css */
+body {
+  font-family: Arial, sans-serif;
+  background-color: white;
+  background-image: url("./images/vector-cartoon-stick-figure-drawing-conceptual-illustration-of-man-or-politician-using-loudspeaker-or-megaphone-to-spread-hate-or-propaganda-2BRF1NC.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center -50%;
+  /* margin-top: 10%; */
+}
+
+h1 {
+  font-size: 70px;
+  color: #333;
+  text-align: center;
+  margin-top: 10%;
+}
+
+/* Rest of your styles */
+
+p {
+  margin: 10px 0;
+  color: #555;
+  font-size: 30px; /* Increased font size */
+  /* background-color: white; */
+  padding: 15px;
+  border-radius: 8px;
+  text-align: center;
+}
+
+a {
+  display: block;
+  text-align: center;
+  margin-top: 20px;
+  text-decoration: none;
+  color: #008cba; /* Blue color for the link */
+  font-weight: bold;
+}
+
+a:hover {
+  color: #005177; /* Darker blue color on hover */
+}
+
+/* Center content */
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.result {
+  background-color: white;
+}

@@ -1,0 +1,88 @@
+/* style.css */
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: white;
+  background-image: url("./images/vector-cartoon-stick-figure-drawing-conceptual-illustration-of-man-or-politician-using-loudspeaker-or-megaphone-to-spread-hate-or-propaganda-2BRF1NC.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center -45%;
+  /* margin-top: 10%; */
+}
+
+h1 {
+  font-size: 70px;
+  color: #333;
+  text-align: center;
+  margin-top: 10%;
+}
+
+nav {
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin: 3% 5% 0% 0%;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+nav ul li a {
+  font-size: 20px;
+  text-decoration: none;
+  color: black;
+}
+
+nav ul li a:hover {
+  color: blue;
+}
+
+form {
+  max-width: 400px;
+  margin: 2% auto;
+  padding: 60px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+textarea {
+  width: 100%;
+  min-height: 110px;
+  margin: 2% 5% 5% 0%;
+  padding: 10px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  resize: vertical;
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 100%;
+  height: 70px;
+}
+
+button[type="submit"] {
+  padding: 10px 20px;
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button[type="submit"]:hover {
+  background-color: #45a049;
+}

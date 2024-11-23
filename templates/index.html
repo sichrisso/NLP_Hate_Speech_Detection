@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hate Speech Detection</title>
+    <link rel="stylesheet" type="text/css" href="../static/style.css" />
+  </head>
+  <body>
+    <h1>Hate Speech Detection</h1>
+    <nav>
+      <ul>
+        <li>
+          <a
+            href="https://drive.google.com/file/d/16HxVKzB6EJvUpbStknLt-xoYfGJxUlyM/view?usp=sharing"
+            >Model Report</a
+          >
+        </li>
+      </ul>
+    </nav>
+    <form action="/predict" method="post">
+      <label for="sentence">Enter Amharic Sentence:</label>
+      <textarea name="sentence" required></textarea>
+      <button type="submit">Detect Hate Speech</button>
+    </form>
+  </body>
+</html>
